@@ -444,6 +444,8 @@ margin-left: 50px;
     color: var(--first-color);
     margin-right: auto;
     text-align: center;
+    padding-top: 22px;
+    padding-bottom: 77px;
 }
 .footer-logo-lex {
     color: #939393;
@@ -453,8 +455,6 @@ margin-left: 50px;
     justify-content: center;
     text-align: center;
     border-top: 1px solid #C4C4C4;
-    padding-top: 22px;
-    padding-bottom: 77px;
 
 }
 .footer-list {
@@ -471,4 +471,8 @@ margin-left: 50px;
 }
 .footer-item + .footer-item {
     margin-left: 80px;
+}
+.footer-item {
+        padding-top: 22px;
+        padding-bottom: 77px;
 }
