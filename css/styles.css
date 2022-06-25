@@ -32,7 +32,11 @@ ul {
 a {
     text-decoration: none;
 }
-
+img {
+    display: block;
+    min-width: auto;
+    height: auto;
+}
 .container {
     width: 1338px;
     margin: 0 auto;
