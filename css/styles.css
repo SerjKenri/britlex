@@ -261,23 +261,202 @@ margin-left: 50px;
 
     margin-bottom: 60px;
 }
+.about-titles {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+
+    color: #2A3246;
+
+    margin-bottom: 6px;
+}
 .about-text {
     font-size: 20px;
     line-height: 1.8;
     color: var(--text-color);
+    
 
-    width: 652px;
     margin-bottom: 30px;
     
+    width: 652px;
 }
-.about {
+.about-text2{
+    font-size: 20px;
+    line-height: 1.5;
+        color: #8F95A5;
+}
+.about-section {
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
-    padding-bottom: 236px;
+    padding-bottom: 218px;
 }
 .about-list {
-    display: inline;
+    display: flex;
+    width: 554px;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+/* Pricing */
+.pricing-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+        color: var(--first-color);
+        text-align: center;
+    margin-bottom: 60px;
 }
 
+.pricing-list {
+    display: flex;
 
+}
+.pricing-titles {
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    
+    color: var(--second-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.pricing-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+
+
+    color: var(--text-color);
+    width: 426px;
+}
+.pricing-money {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--second-color);
+    padding-top: 30px;
+    padding-left: 29px;
+    display: inline-block;
+        
+}
+.pricing-money-live {
+    padding-top: 57.2px;
+}
+.prising-per-month {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #546269;
+    margin-left: 21.18px;
+    display: inline-block;
+}
+.pricing-money-personal {
+    padding-top: 60px;
+}
+.pricing-div {
+    margin-bottom: 152px;
+}
+/* Contacts */
+.contact-us {
+    padding-bottom: 55px;
+    display: flex;
+}
+.contacts-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+
+    color: var(--first-color);
+
+    margin-bottom: 54px;
+}
+.contact-us-text {
+    font-size: 20px;
+    line-height: 1.5;
+    
+    color: var(--text-color);
+    width: 654px;
+    margin-bottom: 36px;
+}
+.contact-form {
+    display: flex;
+}
+
+.contact-input {
+    display: inline-block;
+    width: 425px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--input-color);
+    padding: 20px 30px;
+    background-color: inherit;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+}
+
+.submit-button {
+    display: inline-block;
+    text-align: center;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: var(--second-color);
+    cursor: pointer;
+
+    width: 312px;
+    padding: 20px 56px;
+    margin-left: 30px;
+
+    font-family: inherit;
+    font-style: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: inherit;
+    color: var(--background-color);
+}
+.contants-text-block {
+    margin-left: 142px;
+}
+/* Footer menu */
+.footer-logo {
+    font-size: 36px;
+    line-height: 1.5;
+    display: flex;
+    
+    
+    color: var(--first-color);
+    margin-right: auto;
+    text-align: center;
+}
+.footer-logo-lex {
+    color: #939393;
+}
+.footer-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.footer-list {
+    display: flex;
+    text-align: center;
+}
+.footer-links {
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    letter-spacing: 0.02em;
+    
+        color: var(--text-color);
+}
+.footer-item + .footer-item {
+    margin-left: 80px;
+}
